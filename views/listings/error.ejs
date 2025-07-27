@@ -1,0 +1,19 @@
+<!-- ,<% layout('/layouts/boilerplate') -%>
+
+<div class="row mt-3">
+<div class="alert alert-danger col-5 offset-4">
+     <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:"><use xlink:href="#exclamation-triangle-fill"/></svg>
+<h4 class="alert-heading"> <%= message  %></h4>
+
+</div>
+</div> -->
+
+
+<% layout('/layouts/boilerplate') -%>
+
+<div class="row mt-3">
+  <div class="alert alert-danger col-6 offset-3 p-2" style="font-size: 1rem; line-height: 1.5;">
+    <svg class="bi flex-shrink-0 me-2" role="img" aria-label="Danger:" style="height: 1em; width: 1em;"><use xlink:href="#exclamation-triangle-fill"/></svg>
+    <h4 class="alert-heading m-0" style="font-size: 1.1rem;"><%= message %></h4>
+  </div>
+</div>
