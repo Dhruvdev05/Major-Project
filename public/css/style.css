@@ -29,6 +29,24 @@ html, body {
 .nav-link{
     color: black;
 }
+@media (max-width: 992px) { /* Applies only when navbar is collapsed */
+  .navbar-collapse {
+    background-color: #fff; /* Or a light shade */
+    padding: 1rem;
+    border-radius: 0 0 12px 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .navbar-nav .nav-link:last-child {
+    border-bottom: none;
+  }
+}
+
 
 /* footer */
 .f-info-links a{
@@ -80,6 +98,7 @@ html, body {
 /* .card-review{
     border: 1px solid ;
 } */
+
 
 .card-img-top{
     border-radius: 1rem !important;
